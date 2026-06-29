@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0edc8385-cff1-4b47-8d44-ed4b19a8d810">
+  <producedTypes>
+    <objectType typeId="0ca642fa-9e94-437d-a746-10f4e0201e19" valueTypeId="660036e6-bbd4-46d2-a44c-298e51dcd3a9"/>
+    <refType typeId="8142c4f7-c722-4adf-a2cb-94dd999a1f52" valueTypeId="7621fd02-3b5a-4d11-9a40-d822d7e1e33a"/>
+    <selectionType typeId="fc340809-b7f7-4629-8cb4-2dd1c148c3c2" valueTypeId="43f03217-578c-449d-a0b8-fd0406f212d2"/>
+    <listType typeId="84bddabd-db4b-49ac-9b54-50453c73ea93" valueTypeId="2c34fda8-adde-4100-aa0c-2ca3c309789a"/>
+    <managerType typeId="c90cbd08-5e68-4a2d-91e9-7ed02c78e869" valueTypeId="8d5bebea-264f-4f83-bfff-b96e75ce078c"/>
+  </producedTypes>
+  <name>ПриемНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием на работу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриемНаРаботу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3b2f0b47-d25e-4e2f-b622-45e878d34e32">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72a8dc66-2c75-4323-bf7e-e1cca46e2f74">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f3ba0496-932c-450f-8783-745435e652bd">
+    <name>ДатаПриема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата приема</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c72d0837-1f86-4457-9145-09c945fd4446">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
