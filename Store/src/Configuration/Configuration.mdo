@@ -47,5 +47,6 @@
   <catalogs>Catalog.Должности</catalogs>
   <documents>Document.ПоступлениеТовара</documents>
   <documents>Document.ПриемНаРаботу</documents>
+  <documents>Document.КадровыйПеревод</documents>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладе</accumulationRegisters>
 </mdclass:Configuration>

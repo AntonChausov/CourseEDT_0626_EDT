@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="468e927b-4f21-4a1a-989b-53e2685a4f2c">
+  <producedTypes>
+    <objectType typeId="a3d3a839-7fd3-4e72-9c8d-e1ec2c55a91f" valueTypeId="f61993b2-2bb3-4979-806e-2c3088168d93"/>
+    <refType typeId="b4c544e4-0a72-40bb-991b-262d9dce48eb" valueTypeId="386fe38e-018c-4a36-976d-a421f5627942"/>
+    <selectionType typeId="d22c88e9-6062-4ea8-8396-ca27e259bd65" valueTypeId="576cafa2-833b-461a-b1cf-b9ec604e95fe"/>
+    <listType typeId="e62f04f9-b095-49b2-af7e-e1bddcbf2ee7" valueTypeId="0757b550-06b5-42b5-ae16-e8861718aff3"/>
+    <managerType typeId="ac37c628-b371-4012-a629-99cb73f78ce7" valueTypeId="6d1d3d12-3fa1-43b8-963c-2468885c9189"/>
+  </producedTypes>
+  <name>КадровыйПеревод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровый перевод</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КадровыйПеревод.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
