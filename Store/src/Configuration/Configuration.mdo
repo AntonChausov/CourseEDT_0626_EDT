@@ -40,6 +40,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <constants>Constant.Константа123</constants>
+  <constants>Constant.Константа567</constants>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Производители</catalogs>
