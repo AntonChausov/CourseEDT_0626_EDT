@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d34f7804-7b3f-41fc-9957-4e4d2b4a9bc6">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d34f7804-7b3f-41fc-9957-4e4d2b4a9bc6">
   <producedTypes>
     <objectType typeId="1c52d23e-d562-4bc9-b9d8-7eaac40b5486" valueTypeId="3c9dcd64-717b-4bde-9ad3-19d0c3ac5733"/>
     <refType typeId="7d6ea2f1-db6a-4968-8c18-46c4f4d2a000" valueTypeId="e1b30efb-3fd8-46ad-9e3a-46c6cde8d550"/>
@@ -30,4 +30,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="238099e2-375e-430f-bce3-3aa289033356">
+    <name>ШтукВЕдинице</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штук в единице</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
